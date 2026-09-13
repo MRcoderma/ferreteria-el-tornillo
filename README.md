@@ -7,6 +7,8 @@ Sitio web estático desarrollado para el taller práctico integrador **Del códi
 - Página de una sola sección continua con inicio, productos y contacto.
 - Información visible de horario, ubicación y WhatsApp.
 - Cuatro categorías de productos en tarjetas.
+- Fotografías ilustrativas optimizadas para cada categoría.
+- Fichas comerciales con ejemplos, orientación y consulta directa por WhatsApp.
 - Formulario con validación en el navegador.
 - Botón de envío deshabilitado mientras los datos no sean válidos.
 - Diseño adaptable para computador, tableta y celular.
@@ -22,6 +24,11 @@ ferreteria-el-tornillo/
 │   └── estilos.css
 ├── js/
 │   └── contacto.js
+├── images/
+│   ├── electricos.webp
+│   ├── herramientas.webp
+│   ├── pinturas.webp
+│   └── tornilleria.webp
 ├── tests/
 │   └── contacto.test.cjs
 ├── vercel.json

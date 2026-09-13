@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Ferretería El Tornillo: herramientas, pinturas, tornillería y material eléctrico en el barrio Los Pinos.">
+  <meta name="description" content="Ferretería El Tornillo: herramientas, pinturas, tornillería y material eléctrico con asesoría cercana en el barrio Los Pinos.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
   <title>Ferretería El Tornillo</title>
@@ -38,6 +38,11 @@
           <p class="etiqueta">Ferretería de confianza en Los Pinos</p>
           <h1 id="titulo-principal">La herramienta correcta para cada proyecto</h1>
           <p class="introduccion">Herramientas, pintura, tornillería y material eléctrico con atención cercana y asesoría práctica.</p>
+          <ul class="beneficios-portada" aria-label="Beneficios del servicio">
+            <li>Orientación según tu proyecto</li>
+            <li>Cotización directa por WhatsApp</li>
+            <li>Atención de lunes a sábado</li>
+          </ul>
           <div class="acciones">
             <a class="boton boton-principal" href="#productos">Ver productos</a>
             <a class="boton boton-secundario" href="https://wa.me/573001234567" rel="noopener noreferrer" aria-label="Escribir por WhatsApp al 300 123 4567">WhatsApp 300 123 4567</a>
@@ -69,33 +74,116 @@
       </div>
     </section>
 
-    <section class="seccion" id="productos" aria-labelledby="titulo-productos">
+    <section class="seccion catalogo" id="productos" aria-labelledby="titulo-productos">
       <div class="contenedor">
-        <p class="etiqueta">Lo que encuentras</p>
-        <h2 id="titulo-productos">Productos para construir, reparar y mejorar</h2>
-        <p class="texto-seccion">Cuatro líneas esenciales para resolver desde una reparación doméstica hasta un proyecto completo.</p>
+        <div class="catalogo-encabezado">
+          <div>
+            <p class="etiqueta">Catálogo por categorías</p>
+            <h2 id="titulo-productos">Todo lo esencial para llevar tu proyecto más lejos</h2>
+            <p class="texto-seccion">Explora nuestras líneas principales y cuéntanos qué necesitas. Te ayudamos a identificar la medida, el acabado o la referencia adecuada antes de comprar.</p>
+          </div>
+          <aside class="catalogo-destacado" aria-label="Servicio de orientación">
+            <span class="catalogo-destacado-icono" aria-hidden="true">✓</span>
+            <div>
+              <strong>Compra con más seguridad</strong>
+              <p>Envía una foto o tu lista de materiales por WhatsApp y recibe orientación para escoger mejor.</p>
+            </div>
+          </aside>
+        </div>
 
         <div class="rejilla-productos">
-          <article class="tarjeta">
-            <span class="numero">01</span>
-            <h3>Herramientas</h3>
-            <p>Martillos, alicates, destornilladores, llaves y equipos para trabajo manual.</p>
+          <article class="tarjeta-producto">
+            <div class="producto-imagen">
+              <img src="images/herramientas.webp" alt="Taladro, martillo, alicates, flexómetro y destornilladores sobre una mesa de trabajo" width="900" height="900" loading="lazy">
+              <span class="producto-indice">01</span>
+            </div>
+            <div class="producto-contenido">
+              <p class="producto-tipo">Trabajo manual y eléctrico</p>
+              <h3>Herramientas</h3>
+              <p>Opciones para instalación, reparación y mantenimiento, desde el kit básico hasta equipos para trabajos frecuentes.</p>
+              <ul class="producto-lista">
+                <li>Taladros y accesorios</li>
+                <li>Martillos, alicates y llaves</li>
+                <li>Destornilladores y medición</li>
+              </ul>
+              <div class="producto-pie">
+                <span>Consulta marcas y referencias</span>
+                <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20por%20herramientas" rel="noopener noreferrer" aria-label="Consultar herramientas por WhatsApp">Consultar <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
           </article>
-          <article class="tarjeta">
-            <span class="numero">02</span>
-            <h3>Pinturas</h3>
-            <p>Pintura para interiores y exteriores, brochas, rodillos y accesorios de aplicación.</p>
+
+          <article class="tarjeta-producto">
+            <div class="producto-imagen">
+              <img src="images/pinturas.webp" alt="Latas de pintura, rodillo, brocha y muestras en tonos cálidos" width="900" height="900" loading="lazy">
+              <span class="producto-indice">02</span>
+            </div>
+            <div class="producto-contenido">
+              <p class="producto-tipo">Acabados y protección</p>
+              <h3>Pinturas</h3>
+              <p>Soluciones para renovar interiores, proteger exteriores y conseguir un acabado uniforme con los accesorios correctos.</p>
+              <ul class="producto-lista">
+                <li>Pinturas para interior y exterior</li>
+                <li>Brochas, rodillos y bandejas</li>
+                <li>Selladores y preparación</li>
+              </ul>
+              <div class="producto-pie">
+                <span>Pregunta por tonos y presentación</span>
+                <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20por%20pinturas" rel="noopener noreferrer" aria-label="Consultar pinturas por WhatsApp">Consultar <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
           </article>
-          <article class="tarjeta">
-            <span class="numero">03</span>
-            <h3>Tornillería</h3>
-            <p>Tornillos, tuercas, arandelas, chazos y fijaciones en diferentes medidas.</p>
+
+          <article class="tarjeta-producto">
+            <div class="producto-imagen">
+              <img src="images/tornilleria.webp" alt="Surtido organizado de tornillos, tuercas, arandelas y chazos" width="900" height="900" loading="lazy">
+              <span class="producto-indice">03</span>
+            </div>
+            <div class="producto-contenido">
+              <p class="producto-tipo">Fijación para cada superficie</p>
+              <h3>Tornillería</h3>
+              <p>Fijaciones en distintas medidas y materiales para madera, muro, metal y soluciones de montaje cotidiano.</p>
+              <ul class="producto-lista">
+                <li>Tornillos, pernos y tuercas</li>
+                <li>Arandelas y chazos</li>
+                <li>Fijaciones por medida</li>
+              </ul>
+              <div class="producto-pie">
+                <span>Lleva una muestra o la medida</span>
+                <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20por%20torniller%C3%ADa" rel="noopener noreferrer" aria-label="Consultar tornillería por WhatsApp">Consultar <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
           </article>
-          <article class="tarjeta">
-            <span class="numero">04</span>
-            <h3>Material eléctrico</h3>
-            <p>Cables, tomas, interruptores, extensiones y soluciones para instalaciones básicas.</p>
+
+          <article class="tarjeta-producto">
+            <div class="producto-imagen">
+              <img src="images/electricos.webp" alt="Cables, tomacorriente, interruptor, cinta aislante y multímetro" width="900" height="900" loading="lazy">
+              <span class="producto-indice">04</span>
+            </div>
+            <div class="producto-contenido">
+              <p class="producto-tipo">Instalaciones y mantenimiento</p>
+              <h3>Material eléctrico</h3>
+              <p>Componentes para instalaciones básicas y reparaciones domésticas, con referencias para diferentes necesidades.</p>
+              <ul class="producto-lista">
+                <li>Cables y canaletas</li>
+                <li>Tomas e interruptores</li>
+                <li>Cintas, conectores y extensiones</li>
+              </ul>
+              <div class="producto-pie">
+                <span>Confirma calibre y compatibilidad</span>
+                <a href="https://wa.me/573001234567?text=Hola%2C%20quiero%20consultar%20por%20material%20el%C3%A9ctrico" rel="noopener noreferrer" aria-label="Consultar material eléctrico por WhatsApp">Consultar <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
           </article>
+        </div>
+
+        <div class="cotizacion">
+          <div>
+            <p class="etiqueta">Atención personalizada</p>
+            <h3>¿Tienes una lista completa de materiales?</h3>
+            <p>Escríbenos con las cantidades y especificaciones. Revisamos contigo cada referencia antes de preparar la cotización.</p>
+          </div>
+          <a class="boton boton-claro" href="https://wa.me/573001234567?text=Hola%2C%20tengo%20una%20lista%20de%20materiales%20para%20cotizar" rel="noopener noreferrer">Cotizar mi lista <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
